@@ -1,0 +1,70 @@
+
+
+    p {
+      color: orange;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: orange;
+      font: Optima, sans-serif;
+    }
+
+    body {
+      background-color: rgb(126, 130, 133);
+    }
+
+    .image-cropper {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    .profile-pic {
+      display: inline;
+      margin: 0 auto;
+      margin-left: 0%;
+      height: 100%;
+      width: auto;
+    }
+
+    .navigation {
+      background: linear-gradient(to right, rgb(215, 216, 194), rgb(228, 228, 214));
+      padding: 1rem 0 2rem 0;
+      position: static;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 19%;
+    }
+
+    .navigationgroup {
+      padding-left: 50rem;
+    }
+
+    div {
+      display: block;
+    }
+    .EQ{
+  color: orange;
+  text-align: center;
+  align-items: center;
+}
+    a {
+      color: black;
+      text-decoration-color: transparent;
+      margin-right: 2em;
+      transition: text-decoration-color500ms;
+      cursor: pointer;
+    }
+
+    .center {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
+    }
+ 
