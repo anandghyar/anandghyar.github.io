@@ -14,6 +14,7 @@
     body {
       background-color: rgb(126, 130, 133);
     }
+    
 
     .image-cropper {
       width: 150px;
@@ -68,3 +69,46 @@
       width: 35%;
     }
  
+    @media (min-width: 320px) {
+      body{
+        background-color: rgb(160, 115, 122);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+      }
+      .navigation {
+        float: none;
+        width: 100%;
+      }
+      .column {
+        width: 100%;
+      }
+      div.example {
+        font-size: 30px;
+      }
+      div.example {
+        font-size: 80px;
+      }
+    }
+
+    @media(min-width: 768px) {
+        body{
+          background-color:rgb(150, 137, 62);
+          font-family: cursive;
+          font-size: 20px;
+          color:hsl(256, 48%, 5%)
+        }
+        .row {
+          flex-direction: column;
+        }
+        .column {
+          flex: 50%;
+        }
+      
+    @media(min-width: 1024px) {
+            body{
+              background-color:rgb(21, 98, 117);
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 25px;
+              color:hsl(165, 9%, 9%)
+            }
+          }
