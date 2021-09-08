@@ -111,4 +111,11 @@
               font-size: 25px;
               color:hsl(165, 9%, 9%)
             }
+            .row {
+              flex-direction: column;
+            }
+            .column {
+              flex: 50%;
+            }
           }
+        }
